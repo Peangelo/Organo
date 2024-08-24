@@ -27,7 +27,7 @@ const Rodape = () => {
        </section>
        <section>
         <p>
-            Desenvolvido por Rafael Peangelo.
+            Desenvolvido por Rafael Peangelo de Souza.
         </p>
        </section>
     </footer>)
