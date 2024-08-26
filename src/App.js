@@ -150,7 +150,7 @@ function App() {
       <Banner />
       <Formulario aoCriarTime={cadastrarTime} times={times.map(time => time.nome)} aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])} />
       <section className="times">
-        <h1>Minha organização</h1>
+        <h1>Times</h1>
         {times.map((time, indice) => <Time mudarCor={mudarCor} key={indice} time={time} colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} aoDeletar={deletarColaborador} aoFavoritar={resolverFavorito} />)}
       </section>
       <Rodape />
